@@ -8,9 +8,21 @@
     background-color: brown;
   }
   .container1 {
+    display: grid;
+    grid-template-columns: 7fr 2fr 1fr;
+    grid-template-rows: 1fr;
     height: 10vh;
     background-color: rgb(43, 226, 125);
+    .logo {
+    }
+    .search {
+      background-color: cadetblue;
+    }
+    .menu {
+      background-color: coral;
+    }
   }
+
   .container2 {
     height: 65vh;
     background-color: blueviolet;
