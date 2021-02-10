@@ -239,10 +239,11 @@
   }
 
   .container2 {
+    color: #333333;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 65vh;
+    height: 75vh;
     text-align: center;
 
     .c2d1 {
@@ -252,7 +253,31 @@
       }
     }
     .c2d2 {
-      background-color: burlywood;
+      text-align: left;
+
+      .textbutt {
+        margin-top: 9rem;
+        width: 80%;
+
+        h1 {
+          letter-spacing: 0.1rem;
+          font-family: "Grand Hotel", cursive;
+          font-size: 3rem;
+          font-style: italic;
+        }
+        p {
+          font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+          margin-top: 2rem;
+          letter-spacing: 0.3rem;
+          font-size: 1.5rem;
+        }
+        button {
+          margin-top: 2rem;
+          background-color: #ffd326;
+          padding: 1rem 3rem;
+          font-size: 1.5rem;
+        }
+      }
     }
   }
   .container3 {
