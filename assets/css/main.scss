@@ -239,23 +239,36 @@
   }
 
   .container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     height: 65vh;
-    background-color: blueviolet;
+    text-align: center;
+
+    .c2d1 {
+      .bigyellow {
+        width: 34rem;
+        margin-top: 2.5rem;
+      }
+    }
+    .c2d2 {
+      background-color: burlywood;
+    }
   }
   .container3 {
     height: 50vh;
-    background-color: rgb(226, 43, 186);
+    background-color: #ffd326;
   }
   .container4 {
     height: 50vh;
-    background-color: rgb(226, 131, 43);
+    background-color: #fffbec;
   }
   .container5 {
     height: 30vh;
-    background-color: rgb(223, 226, 43);
+    background-color: #333333;
   }
   .container6 {
     height: 10vh;
-    background-color: rgb(43, 153, 226);
+    background-color: black;
   }
 }
