@@ -246,7 +246,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 75vh;
+    height: 85vh;
     text-align: center;
 
     .c2d1 {
@@ -282,6 +282,11 @@
           background-color: #ffd326;
           padding: 1rem 3rem;
           font-size: 1.5rem;
+          &:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+          }
         }
       }
     }
@@ -291,7 +296,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
-    height: 65vh;
+    height: 75vh;
     background-color: #ffd326;
     text-align: center;
 
@@ -334,7 +339,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    height: 60vh;
+    height: 70vh;
     background-color: #fffbec;
     .c4d1 {
       text-align: right;
@@ -370,6 +375,11 @@
           background-color: #ffd326;
           padding: 1rem 3rem;
           font-size: 1.5rem;
+          &:hover {
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+          }
         }
       }
     }
@@ -380,7 +390,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 2fr;
     grid-template-rows: 1fr;
-    height: 30vh;
+    height: 40vh;
     background-color: #333333;
 
     .logo2 {
@@ -403,11 +413,11 @@
       }
     }
     .c5d4 {
-      background-color: cadetblue;
       .para1 {
         margin-top: 3rem;
       }
       ul {
+        margin-top: 2rem;
         list-style: none;
         li {
           padding-right: 1rem;
@@ -416,15 +426,19 @@
             width: 2rem;
             cursor: pointer;
             &:hover {
+              -webkit-transform: scale(1.2);
+              -ms-transform: scale(1.2);
+              transform: scale(1.2);
             }
           }
         }
       }
       .para2 {
         clear: both;
+        margin-top: 7rem;
       }
       .input {
-        margin-top: 2rem;
+        margin-top: 1rem;
         width: 28rem;
         .rounded-email-container {
           display: flex;
