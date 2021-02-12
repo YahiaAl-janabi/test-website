@@ -503,7 +503,16 @@
     }
   }
   .container6 {
+    font-family: sans-serif;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     height: 10vh;
     background-color: black;
+    p {
+      margin-top: 3rem;
+      margin-left: 3rem;
+    }
   }
 }
